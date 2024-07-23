@@ -4,8 +4,8 @@ import "./App.css";
 
 const App = () => {
   return (
-    <div className="bg-black p-4 max-h-screen max-w-screen text-white">
-      <header className="flex  items-center justify-between py-2 mb-6">
+    <div className="bg-black p-4 min-h-screen w-[100vw] text-white">
+      <header className="flex  items-center justify-between py-2 mb-8">
         <div id="logo">
           <a href="#" className="text-2xl md:text-3xl">
             Weather
