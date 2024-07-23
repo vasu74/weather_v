@@ -20,7 +20,7 @@ const MainSection = () => {
           </p>
           <Separator className="my-4 bg-gray-300" />
           <p className="text-xl mb-2">Thrusday, 2, Mar</p>
-          <p className="text-xl">London, UK</p>
+          <p className="text-xl">London, uUK</p>
         </div>
 
         <h3 className="text-2xl">5 Days Forecast</h3>
@@ -64,7 +64,9 @@ const MainSection = () => {
         </div>
       </div>
       {/*  Second Sidebar  */}
-      <div className="flex flex-col gap-2 w-full">{/* <BigSide /> */}</div>
+      <div className="flex flex-col gap-2 w-full">
+        <BigSide />
+      </div>
     </div>
   );
 };
